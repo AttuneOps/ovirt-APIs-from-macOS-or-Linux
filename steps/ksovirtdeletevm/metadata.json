@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "fecac0d4-5324-43b1-b2f0-9a4d0f5fdb14", 
+    "interpreter": 1, 
+    "key": "ksovirtdeletevm", 
+    "name": "KS oVirt Delete VM", 
+    "osCredKey": "kickstartworkerbuildlinuxuser", 
+    "serverKey": "kickstartworkerlinuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
