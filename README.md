@@ -84,6 +84,8 @@ This Project contains the following Blueprints.
 | kickstartWorkerBuildLinuxUser | Linux/Unix Credential | `kickstartworkerbuildlinuxuser` |  |
 | KS: Attune Base Dir | Text | `ksattunebasedir` |  |
 | oVirt: Datacenter Name | Text | `ovirtdatacentername` |  |
+| oVirt: VM Comment | Text | `ovirtvmcomment` | Input to the comment text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
+| oVirt: VM Description | Text | `ovirtvmdescription` | Input to the description text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
 
 
 

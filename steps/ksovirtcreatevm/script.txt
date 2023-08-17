@@ -56,8 +56,10 @@ vms_service.add(
         ),
         bios=types.Bios (
             type=types.BiosType.{ovirtBiosType}
-        )
-    ),
+        ),
+        comment="{ovirtVmComment}",
+        description="{ovirtVmDescription}"
+    )
 )
 
 # Close the connection to the server:
