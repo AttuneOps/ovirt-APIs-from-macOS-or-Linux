@@ -68,9 +68,14 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
+| Kickstarted Node | Basic Node | `kickstartednode` |  |
+| Kickstart Worker Build Linux User | Linux/Unix Credential | `kickstartworkerbuildlinuxuser` |  |
+| Kickstart Worker Linux Node | Linux/Unix Node | `kickstartworkerlinuxnode` | Linux refers to both Linux and MacOS |
+| KS: Attune Base Dir | Text | `ksattunebasedir` |  |
 | oVirt: Bios Type | Text | `ovirtbiostype` | Valid Values are (they must be in all capitals):<br>1. CLUSTER_DEFAULT - Use the cluster-wide default.<br>2. I440FX_SEA_BIOS - i440fx chipset with SeaBIOS.<br>3. Q35_OVMF - q35 chipset with OVMF (UEFI) BIOS.<br>4. Q35_SEA_BIOS - q35 chipset with SeaBIOS.<br>5. Q35_SECURE_BOOT- q35 chipset with OVMF (UEFI) BIOS with SecureBoot enabled.<br><br>https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/bios_type |
 | oVirt: Cluster Name | Text | `ovirtclustername` |  |
 | oVirt: CPU Count | Text | `ovirtcpucount` |  |
+| oVirt: Datacenter Name | Text | `ovirtdatacentername` |  |
 | oVirt: Disk Interface | Text | `ovirtdiskinterface` | SATA or IDE required for Windows<br>VIRTIO_SCSI for windows after driver install<br>VIRTIO for Linux |
 | oVirt: Disk Storage Name | Text | `ovirtdiskstoragename` |  |
 | oVirt: Engine API User | Basic Credential | `ovirtengineapiuser` |  |
@@ -79,11 +84,6 @@ This Project contains the following Blueprints.
 | oVirt: Network Name | Text | `ovirtnetworkname` |  |
 | oVirt: NIC Interface | Text | `ovirtnicinterface` | E1000 for Windows<br>VIRTIO for Linux |
 | oVirt: TimeZone | Text | `ovirttimezone` |  |
-| Kickstart Worker Linux Node | Linux/Unix Node | `kickstartworkerlinuxnode` | Linux refers to both Linux and MacOS |
-| Kickstarted Node | Basic Node | `kickstartednode` |  |
-| kickstartWorkerBuildLinuxUser | Linux/Unix Credential | `kickstartworkerbuildlinuxuser` |  |
-| KS: Attune Base Dir | Text | `ksattunebasedir` |  |
-| oVirt: Datacenter Name | Text | `ovirtdatacentername` |  |
 | oVirt: VM Comment | Text | `ovirtvmcomment` | Input to the comment text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
 | oVirt: VM Description | Text | `ovirtvmdescription` | Input to the description text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
 
