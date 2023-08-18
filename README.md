@@ -60,6 +60,9 @@ This Project contains the following Blueprints.
 ### oVirt Recreate Virtual Machine
 
 
+### KS oVirt Delete VM - Group
+
+
 
 
 
