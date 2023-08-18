@@ -1,0 +1,1 @@
+https://github.com/oVirt/ovirt-engine/blob/master/packaging/conf/timezones-defaults.properties

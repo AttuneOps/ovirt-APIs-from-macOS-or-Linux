@@ -83,9 +83,9 @@ This Project contains the following Blueprints.
 | oVirt: Memory Size | Text | `ovirtmemorysize` |  |
 | oVirt: Network Name | Text | `ovirtnetworkname` |  |
 | oVirt: NIC Interface | Text | `ovirtnicinterface` | E1000 for Windows<br>VIRTIO for Linux |
-| oVirt: TimeZone | Text | `ovirttimezone` |  |
 | oVirt: VM Comment | Text | `ovirtvmcomment` | Input to the comment text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
 | oVirt: VM Description | Text | `ovirtvmdescription` | Input to the description text field in the vm struct https://ovirt.github.io/ovirt-engine-api-model/4.5/#types/vm. |
+| oVirt: TimeZone | Text | `ovirttimezone` | https://github.com/oVirt/ovirt-engine/blob/master/packaging/conf/timezones-defaults.properties |
 
 
 
